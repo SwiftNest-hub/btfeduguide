@@ -3,6 +3,7 @@
 The OUTPUT is plain HTML; the website itself needs no build step. Run: python3 build.py"""
 import html
 DOMAIN = ""  # set to the real deployed URL (e.g. https://example.com) before publishing; used for canonical/OG/sitemap
+OG_IMAGE = "https://www.btfeducationalconsult.com/logo-new.png"
 NAV = [("study-abroad.html","Study Abroad"),("destinations.html","Destinations"),("scholarships.html","Scholarships"),("work-and-visas.html","Work &amp; Visas")]
 LEARN = [("documents.html","Documents Academy"),("resources.html","Resources &amp; Quiz")]
 NAV2 = [("media.html","Media"),("care-foundation.html","Foundation"),("about.html","About")]
@@ -30,7 +31,7 @@ FOOT = f'''<footer class="site-footer"><div class="wrap"><div class="fgrid">
 
 def page(fn, title, desc, body, scripts=(), head=None):
     canon = f'<link rel="canonical" href="{DOMAIN}/{fn}">' if DOMAIN else ""
-    og = f'<meta property="og:image" content="{DOMAIN}/assets/images/og.png">' if DOMAIN else ""
+    og = f'<meta property="og:image" content="{OG_IMAGE}"><meta property="og:image:secure_url" content="{OG_IMAGE}"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="Build the Future Educational Consult logo"><meta name="twitter:image" content="{OG_IMAGE}">'
     sc = "".join(f'<script defer src="assets/{s}"></script>' for s in ("data/site.js","data/content.js")+tuple(scripts)+("js/main.js","js/assistant.js"))
     h = head or ""
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
