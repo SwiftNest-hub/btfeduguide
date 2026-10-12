@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Add the Sitemap line once the real domain is known
