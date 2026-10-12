@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a community learning together</title>
+  <desc id="desc">Three people gather around an open book beneath a leafy tree.</desc>
+  <rect width="800" height="500" rx="24" fill="#edf4ef"/>
+  <circle cx="655" cy="106" r="48" fill="#f3e6c4"/>
+  <path d="M0 360c116-53 215-49 322-10s188 43 286 1 143-38 192-25v174H0z" fill="#d8e9dc"/>
+  <path d="M110 367c58-34 97-105 95-181M204 235c-42-9-71-31-87-65m89 104c35-37 70-52 108-50" fill="none" stroke="#175c3a" stroke-linecap="round" stroke-width="15"/>
+  <circle cx="126" cy="159" r="47" fill="#1f7a4d"/>
+  <circle cx="283" cy="224" r="34" fill="#c99a2e"/>
+  <circle cx="499" cy="216" r="34" fill="#1f7a4d"/>
+  <circle cx="675" cy="247" r="36" fill="#c99a2e"/>
+  <path d="M243 356c4-65 21-99 54-99s51 34 55 99m111 0c4-65 22-99 55-99s50 34 54 99m111 0c4-57 21-89 53-89s49 32 53 89" fill="#18395a"/>
+  <path d="M303 345q96-68 192 0v70q-96-58-192 0z" fill="#fff" stroke="#c99a2e" stroke-width="7"/>
+  <path d="M399 351v63" stroke="#c99a2e" stroke-width="5"/>
+  <path d="M335 364h42m-42 15h42m40-15h42m-42 15h42" stroke="#b8c9d7" stroke-linecap="round" stroke-width="5"/>
+  <path d="M79 428h642" stroke="#175c3a" stroke-linecap="round" stroke-width="8" opacity=".3"/>
+</svg>

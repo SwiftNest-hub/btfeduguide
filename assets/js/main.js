@@ -48,9 +48,14 @@ document.documentElement.classList.add("js");
   // --- Gallery lightbox (native <dialog>: Esc closes, focus is trapped by the browser) ---
   var dlg=document.getElementById("lightbox");
   if(dlg){
+    var preview=dlg.querySelector(".lightbox-image");
     document.querySelectorAll(".gal button").forEach(function(b){
       b.addEventListener("click",function(){
         dlg.querySelector(".cap").textContent=b.getAttribute("data-caption")||"";
+        if(preview){
+          var image=b.querySelector("img");
+          if(image){preview.src=image.src;preview.alt=image.alt}
+        }
         if(dlg.showModal)dlg.showModal(); else dlg.setAttribute("open","");
         dlg.querySelector(".close").focus();
       });

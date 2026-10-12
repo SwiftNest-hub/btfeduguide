@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of people collaborating on a learning project</title>
+  <desc id="desc">Two learners share ideas over a laptop at a table.</desc>
+  <rect width="800" height="500" rx="24" fill="#eaf1f6"/>
+  <circle cx="153" cy="117" r="54" fill="#f3e6c4"/>
+  <circle cx="653" cy="122" r="66" fill="#d8e9dc"/>
+  <rect x="282" y="72" width="218" height="105" rx="22" fill="#fff"/>
+  <path d="M317 112h144m-144 27h94" stroke="#b8c9d7" stroke-linecap="round" stroke-width="10"/>
+  <circle cx="235" cy="226" r="40" fill="#c99a2e"/>
+  <circle cx="565" cy="226" r="40" fill="#1f7a4d"/>
+  <path d="M173 361c5-69 25-105 62-105s57 36 62 105m206 0c5-69 25-105 62-105s57 36 62 105" fill="#18395a"/>
+  <rect x="110" y="356" width="580" height="72" rx="12" fill="#c99a2e"/>
+  <path d="M322 335h156l26 91H296z" fill="#fff" stroke="#18395a" stroke-width="8"/>
+  <rect x="340" y="350" width="120" height="57" rx="4" fill="#dcebe1"/>
+  <circle cx="400" cy="379" r="15" fill="#1f7a4d"/>
+  <path d="M78 436h644" stroke="#18395a" stroke-linecap="round" stroke-width="8" opacity=".22"/>
+</svg>

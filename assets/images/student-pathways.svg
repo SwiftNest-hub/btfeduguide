@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a student planning a learning journey</title>
+  <desc id="desc">A student studies an open book while a dotted path leads toward a globe.</desc>
+  <rect width="800" height="500" rx="24" fill="#f7f2e6"/>
+  <circle cx="625" cy="130" r="91" fill="#dcebe1"/>
+  <circle cx="625" cy="130" r="59" fill="none" stroke="#1f7a4d" stroke-width="8"/>
+  <path d="M566 130h118M625 71c-27 34-27 84 0 118m0-118c27 34 27 84 0 118" fill="none" stroke="#1f7a4d" stroke-width="6"/>
+  <path d="M350 340c72-59 123 16 184-24 35-23 44-62 81-91" fill="none" stroke="#c99a2e" stroke-dasharray="12 14" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="350" cy="340" r="13" fill="#c99a2e"/>
+  <circle cx="534" cy="316" r="13" fill="#c99a2e"/>
+  <path d="M122 392c6-91 32-140 85-140s79 49 85 140" fill="#18395a"/>
+  <circle cx="207" cy="195" r="48" fill="#c99a2e"/>
+  <path d="M164 190c5-45 27-67 67-61 23 4 36 22 39 49-25-9-42-25-52-44-10 24-27 42-54 56z" fill="#17212b"/>
+  <path d="M209 345q99-68 198 0v76q-99-61-198 0z" fill="#fff" stroke="#1f7a4d" stroke-width="8"/>
+  <path d="M407 351v70m-166-53h70m-70 18h70m48-18h34m-34 18h34" stroke="#b8c9d7" stroke-linecap="round" stroke-width="6"/>
+  <path d="M89 436h620" stroke="#18395a" stroke-linecap="round" stroke-width="8" opacity=".18"/>
+</svg>
